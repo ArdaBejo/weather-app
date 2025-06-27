@@ -21,9 +21,11 @@ weatherForm.addEventListener("submit", async (event) => {
 });
 
 async function getWeatherData(city) {
+
   const apiurl = `https://api.allorigins.win/raw?url=${encodeURIComponent(
   `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
 )}`;
+
 
   
 
